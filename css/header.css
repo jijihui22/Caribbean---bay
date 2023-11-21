@@ -1,0 +1,306 @@
+
+/* 메뉴의 로고 기존 */
+
+header .navbar-brand {
+  position: relative;
+}
+
+header .bottom_list h1 {
+  width: 130px;
+}
+
+header .bottom_list h1 a {
+  top: 0;
+  left: 0;
+  text-indent: -999em;
+  width: 130px;
+  height: 47px;
+  display: block;
+}
+/* 메인 메뉴의 모든 링크 색깔 */
+header .menu_list > li > a {
+  color: var(--black);
+}
+/* 메인 메뉴의 두번째 링크 안보이게 */
+header .menu_list > li > a:last-child {
+  color: var(--black);
+}
+
+/* 서브 메뉴의 모든 링크 색깔 */
+header .menu_list ul li a {
+  color: var(--white);
+}
+
+/* 링크의 선택이 잘 되도록 */
+header .bottom_menu ul a {
+  display: block;
+}
+
+/* 헤더의 메인메뉴 부분 */
+header .bottom_menu {
+  height: 85px;
+  overflow: hidden;
+  transition: 0.3s;
+  position: absolute;
+  left: 0;
+  right: 0;
+  background: linear-gradient(white 85px, rgba(6, 45, 97) 50px);
+}
+
+/* 헤더 내 공간 */
+header .bottom_list {
+  padding-top: 18px;
+}
+
+/* 헤더 고정 시 */
+
+header .bottom_menu.fixed {
+  position: fixed;
+  top: 0;
+}
+
+/* 메인 메뉴의 모든 링크 색깔 */
+header .menu_list > li > a {
+color: var(--black);
+}
+/* 메인 메뉴의 두번째 링크 안보이게 */
+header .menu_list > li > a:last-child {
+  color: var(--black);
+}
+
+/* 서브 메뉴의 모든 링크 색깔 */
+header .menu_list ul li a {
+  color: var(--white);
+}
+
+/* 링크의 선택이 잘 되도록 */
+header .bottom_menu ul a {
+  display: block;
+}
+
+/* 헤더의 메인메뉴 부분 */
+header .bottom_menu {
+  height: 85px;
+  overflow: hidden;
+  transition: 0.3s;
+  position: absolute;
+  left: 0;
+  right: 0;
+  background: linear-gradient(white 85px, rgba(6, 45, 97) 50px);
+}
+
+/* 헤더 내 공간 */
+header .bottom_list {
+  padding-top: 18px;
+}
+
+/* 헤더 고정 시 */
+
+header .bottom_menu.fixed {
+  position: fixed;
+  top: 0;
+}
+
+
+
+header .bottom_list h1 a:first-child {
+  background: url(../img/header_logo_03.png) no-repeat;
+}
+header .bottom_list h1 a:last-child {
+  background: url(../img/header_logo_white_03.png) no-repeat;
+}
+
+header .toggle_btn {
+  position: relative;
+}
+
+/* 메뉴 사이의 간격 */
+
+header .menu_list ul {
+  padding-top: 37px;
+}
+
+header .menu_list > li {
+  line-height: 47px;
+  position: relative;
+}
+/* 서브메뉴를 메인메뉴의 중간값으로 */
+
+header .menu_list > li ul {
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translateX(-50%);
+}
+header .menu_list {
+  padding: 0 93px;
+  padding-top: 14px;
+  white-space: nowrap;
+}
+
+header .header_right_icon {
+  padding-top: 14px;
+}
+
+/* 서브메뉴 사이 간격*/
+header .menu_list li {
+  text-align: center;
+  padding: 0 20px;
+}
+
+header .header_right_icon li + li {
+  margin-right: 12px;
+}
+
+header .navbar-nav {
+  text-align: center;
+}
+
+/* 슬라이더  */
+/* 헤더 슬라이더 배경 지정 */
+header .header-slider {
+  background: var(--main_color);
+}
+
+/* 슬라이더 간격 */
+header .slick-slide {
+  padding: 15px; /* Add some spacing around the text */
+}
+
+/* 슬라이드 너비 */
+
+header .test-slider p {
+  color: var(--white);
+  line-height: 35px;
+}
+header .test-slider p > span {
+  font-size: 15px;
+}
+
+.Sec5_left > p {
+  font-family: "Gmarket Sans";
+  font-size: 20px;
+  color: #999;
+}
+
+/* 헤더 밖 우측 아이콘  */
+.search_rel,
+.hamburger_rel,
+.lang_rel {
+  position: relative;
+}
+
+.lang_dropdown {
+  position: absolute;
+  left: 80%;
+  top: 150px;
+  display: none;
+  transform: translateX(2%);
+  border: 1px solid #000;
+}
+
+.search_modal {
+  position: absolute;
+  left: 50%;
+  top: 150px;
+  display: none;
+  transform: translateX(200%);
+}
+
+.hamburger_modal {
+  position: absolute;
+  top: 180px;
+  left: 62%;
+  display: none;
+  transform: translateX(50%);
+}
+
+/* 나이트모드 */
+
+/* 화이트 모드 상시 off */
+header .navbar-brand a:last-child {
+  display: none;
+}
+.sec5_img li {
+  width: 50px;
+  height: 50px;
+  text-indent: -9999px;
+  object-fit: cover;
+  background-size: 100% 100%;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+/* 토글버튼 상시 off */
+header .toggle_btn img:last-child {
+  display: none;
+}
+/* 다크모드 시  */
+
+/* 클릭 시 배경색 전환 */
+header .dark_mode.bottom_menu {
+  background: linear-gradient(var(--light_g6) 85px, rgba(6, 45, 97) 50px);
+}
+
+/* GNB 메뉴 클릭시 색상 변경 */
+header .dark_mode.bottom_menu .menu_list > li > a {
+  color: #fff;
+}
+header .dark_mode .bottom_menu {
+  background: #000;
+}
+header .dark_mode .bottom_list h1 a:last-child {
+  display: block;
+}
+header .dark_mode .bottom_list h1 a:first-child {
+  display: none;
+}
+
+
+header .dark_mode .toggle_btn img:first-child {
+  display: none;
+}
+header .dark_mode .toggle_btn img:last-child {
+  display: block;
+}
+
+/* 헤더는 최상단 무조건 고정 */
+header .bottom_menu {
+  z-index: 9999;
+}@media screen and (max-width: 480px) {
+  /* header */
+
+  .cabi_portfolio {
+    display: none;
+  }
+
+  header .header-slider {
+    display: none;
+  }
+
+  header .bottom_list .hamburger_btn {
+    left: 120%;
+  }
+
+  header .bottom_list .hamburger_btn svg {
+    fill: red;
+  }
+
+  header .hamburger_rel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(190px, 40px);
+  }
+
+  header .toggle_btn {
+    transform: translate(-650%, -10px);
+  }
+  /* 헤더밖  */
+  .hamburger_btn {
+    transform: translate(-650%, -10px);
+  }
+  header .menu_list > li {
+    display: none;
+  }
+}

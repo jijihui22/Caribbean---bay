@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link  rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+  <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/att.css">
+  <title>ATTRACTION</title>
+</head> 
+<body>
+  <a href="#main_content" class="skip_to_content">Skip to Content</a>
+  <header>
+    <div class="header-slider">
+      <div class="test-slider slider-wrap">
+        <p class="p5_tt"><span class="material-symbols-outlined">sailing</span>오늘의 파크 영업 시간 : 9:00 ~17:00</p>
+        <p class="p5_tt"><span class="material-symbols-outlined">water</span>실내 파도풀 시간 : 정각-20분</p>
+        <p class="p5_tt"><span class="material-symbols-outlined">directions_car</span>현재 여유 주차장 : 정문(유료), 1번 주차장</p>
+        <p class="p5_tt"><span class="material-symbols-outlined">device_thermostat</span>현재온도: 37.5도</p>
+        <p class="p5_tt"><span class="material-symbols-outlined">sailing</span>오늘의 파크 영업 시간 : 9:00 ~17:00</p>
+        <p class="p5_tt"><span class="material-symbols-outlined">water</span>실내 파도풀 시간 : 정각-20분</p>
+        <p class="p5_tt"><span class="material-symbols-outlined">directions_car</span>현재 여유 주차장 : 정문(유료), 1번 주차장</p>
+        <p class="p5_tt"><span class="material-symbols-outlined">device_thermostat</span>현재온도: 37.5도</p>
+        <p class="p5_tt"><span class="material-symbols-outlined">sailing</span>오늘의 파크 영업 시간 : 9:00 ~17:00</p>
+        <p class="p5_tt"><span class="material-symbols-outlined">water</span>실내 파도풀 시간 : 정각-20분</p>
+        <p class="p5_tt"><span class="material-symbols-outlined">directions_car</span>현재 여유 주차장 : 정문(유료), 1번 주차장</p>
+        <p class="p5_tt"><span class="material-symbols-outlined">device_thermostat</span>현재온도: 37.5도</p>
+      </div>
+    </div>
+    <nav class="bottom_menu">
+      <div class="bottom_list container d-flex justify-content-between ">
+        <h1 class="navbar-brand">
+          <a href="./index.html">caribean bay</a>
+          <a href="./index.html">caribean bay</a>
+        </h1>
+        <ul class="menu_list d-flex justify-content-between">
+          <li>
+            <a href="./service.html" class="font_green p1_tt sm_pd ">이용안내</a>
+            <ul class="font_s sm_pd">
+              <li><a href="" class="p4_tt">이용방법</a></li>
+              <li><a href="" class="p4_tt">운영시간 (운휴정보)</a></li>
+              <li><a href="./service.html" class="p4_tt">편의시설</a></li>
+              <li><a href="" class="p4_tt">교통정보</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="./price.html" class="font_green p1_tt sm_pd">요금&프로모션</a>
+            <ul class="font_s  sm_pd">
+              <li><a href="" class="p4_tt">이벤트</a></li>
+              <li><a href="./price.html" class="p4_tt">이용요금</a></li>
+              <li><a href="" class="p4_tt">제휴카드&프로모션</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="./att.html" class="font_green p1_tt sm_pd">어트랙션</a>
+            <ul class="font_s  sm_pd">
+              <li><a href="./att.html" class="p4_tt">어트랙션</a></li>
+              <li><a href="" class="p4_tt">가이드맵</a></li>
+              <li><a href="" class="p4_tt">주의사항</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="./FoodVIllageGift.html" class="font_green p1_tt sm_pd">캐리비안 베이 즐기기</a>
+            <ul class="font_s  sm_pd">
+              <li><a href="./FoodVIllageGift.html" class="p4_tt">식음료&빌리지&선물숍</a></li>
+              <li><a href="" class="p4_tt">예약 서비스</a></li>
+              <li><a href="./notion.html" class="p4_tt">공지사항</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="header_right_icon d-flex">
+          <li>
+            <button class="nav-link nav-item toggle_btn logo_switch_mode_day">
+              <img src="./img/header_toggle_btn_day.png" alt="캐리비안 베이 낮버전 버튼">
+              <img src="./img/header_toggle_btn_night.png" alt="캐리비안 베이 밤버전 버튼">
+            </button>
+          </li>
+          <li class="search_rel">
+            <button class="nav-link nav-item search_btn text-dark">
+              <svg xmlns="http://www.w3.org/2000/svg" wilih="24" height="24" viewBox="0 0 24 24" fill="none">
+                <circle cx="12" cy="12" r="12" fill="#F4F4F4" />
+                <path
+                  d="M19 18.1483L15.8634 15.2025M15.8634 15.2025C17.015 14.121 17.7273 12.6269 17.7273 10.9765C17.7273 7.67577 14.8782 5 11.3636 5C7.8491 5 5 7.67577 5 10.9765C5 14.2772 7.8491 16.953 11.3636 16.953C13.1209 16.953 14.7118 16.2841 15.8634 15.2025Z"
+                  stroke="#686B6E" stroke-wilih="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </button>
+          </li>
+          <li class="lang_rel">
+            <button class="lang_btn nav-link nav-item text-dark">
+              <svg xmlns="http://www.w3.org/2000/svg" wilih="24" height="24" viewBox="0 0 24 24" fill="none">
+                <circle cx="12" cy="12" r="12" fill="#F4F4F4" />
+                <path
+                  d="M20 11.5133C20 15.6628 16.4183 19.0266 12 19.0266M20 11.5133C20 7.36383 16.4183 4 12 4M20 11.5133H4M12 19.0266C7.58172 19.0266 4 15.6628 4 11.5133M12 19.0266C13.4728 19.0266 14.6667 15.6628 14.6667 11.5133C14.6667 7.36383 13.4728 4 12 4M12 19.0266C10.5272 19.0266 9.33333 15.6628 9.33333 11.5133C9.33333 7.36383 10.5272 4 12 4M4 11.5133C4 7.36383 7.58172 4 12 4"
+                  stroke="#686B6E" stroke-wilih="1.5" stroke-linecap="round" />
+              </svg>
+            </button>
+          </li>
+          <li class="hamburger_rel">
+            <button class="hamburger_btn nav-link nav-item text-dark">
+              <svg xmlns="http://www.w3.org/2000/svg" wilih="24" height="24" viewBox="0 0 24 24" fill="none">
+                <circle cx="12" cy="12" r="12" fill="#F4F4F4" />
+                <path
+                  d="M6 7C6 6.44772 6.44772 6 7 6H17C17.5523 6 18 6.44772 18 7C18 7.55228 17.5523 8 17 8H7C6.44772 8 6 7.55228 6 7Z"
+                  fill="#686B6E" />
+                <path
+                  d="M6 12C6 11.4477 6.44772 11 7 11H17C17.5523 11 18 11.4477 18 12C18 12.5523 17.5523 13 17 13H7C6.44772 13 6 12.5523 6 12Z"
+                  fill="#686B6E" />
+                <path
+                  d="M6 17C6 16.4477 6.44772 16 7 16H17C17.5523 16 18 16.4477 18 17C18 17.5523 17.5523 18 17 18H7C6.44772 18 6 17.5523 6 17Z"
+                  fill="#686B6E" />
+              </svg>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <form class="search_modal">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-light" type="submit">Search</button>
+    </form>
+    <div class="lang_dropdown">
+      <div class="form-check dropdownMenuButton dropdown-item">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+        <label class="form-check-label" for="flexRadioDefault1">
+          ENGLISH
+        </label>
+      </div>
+      <div class="form-check dropdownMenuButton dropdown-item">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+        <label class="form-check-label" for="flexRadioDefault1">
+          JAPANESE
+        </label>
+      </div>
+      <div class="form-check dropdownMenuButton dropdown-item">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+        <label class="form-check-label" for="flexRadioDefault1">
+          CHINESE
+        </label>
+      </div>
+    </div>
+    </div>
+    <img class="hamburger_modal" src="img/header_hambergur_modal.png" alt="모달메뉴">
+  </header>
+  <main class="">
+    <h4 class="breadcrumb container p4_tt">홈 &gt; 어트랙션</h4>  
+    <audio id="cavisong" src="video/cavisong.mp3" type="audio/mp3" loop onloadstart="this.volume=0.2"></audio>
+    <section class="Sec1">
+      <div class="VideoContainer">        
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Hed_nUvjJXw?controls=1&mute=1&autoplay=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; controls; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <h2>attraction</h2>
+      </div>    
+    </section>
+    <div id="main_content"></div>
+    <section class="Sec2">
+      <h2 class="header2_tt">물놀이 즐길 준비 됐니?</h2>
+      <p class="p1_tt">이어폰을 연결하시면 캐리비안베이 bgm을 들을 수 있습니다</p>
+      <div class="object">
+        <div class="Sec2_circle"></div>
+        <div class="Sec2_squre"></div>
+        <div class="Sec2_triangle"></div>
+      </div>
+      <div class="bubble small"></div>
+      <div class="bubble s-medium"></div>
+      <div class="bubble medium"></div>
+      <div class="bubble large"></div>
+      <div class="bubble small-l"></div>
+    </section>
+    <section class="Sec3">        
+      <p class="Sec3_introtxt">
+        <span class="p4_tt">캐리비안베이 어트랙션</span>
+        <span class="vertical_bar">|</span> 
+        <span class="p1_tt">Hey~ 캐비왔니? 망설이지 말고 시작💦
+      </span>
+      <figure class="figure01"  data-aos="fade-right">
+        <img src="img/sec3_01.png" alt="메가스톰 이미지">
+        <div class="figure_textgroup figure01_textgroup d-flex flex-column">
+          <h2 class="bluetitle header2_tt">MEGA STROM </h2>
+          <h3 class="header3_tt">모든걸 삼켜버릴 <span class="blockspan"></span>메가스톰으로<span class="blockspan"></span>걱정따윈 GO AWAY~</h3>
+            <p class="subtext">
+              워터코스터와 토네이도를 한번에 깔대기속 무중력체험으로<span class="blockspan"></span>
+              지상 37미터 높이의 탑승장에서 원형 튜브에 앉아<span class="blockspan"></span>
+              335미터 길이의 슬라이드를 회전하여 급하강과<span class="blockspan"></span>
+              급상승으로 스릴을 즐길 수 있습니다.
+            </p>
+        </div>
+      </figure>
+      <figure class="figure02" data-aos="fade-left">
+        <div class="figure02_imgs d-flex flex-column align-items-center">
+          <img src="img/sec3_02.png" alt="아쿠아루프 이미지1">
+          <img src="img/sec3_03.png" alt="아쿠아루프 이미지2">
+        </div>  
+        <div class="figure_textgroup figure02_textgroup d-flex flex-column">          
+          <h2 class="bluetitle header2_tt">AQUA LOOF </h2>
+          <h3 class="header3_tt">손발은 X로,<span class="blockspan"></span>스트레스는 아래로! <span class="blockspan"></span></h3>
+            <p class="subtext">
+              체감시속 90km 360도 역회전 슬라이드
+              바닥이 꺼지면 <span class="blockspan"></span>
+              18미터 아래로 뚝 떨어져<span class="blockspan"></span> 
+              360도 회전과 역상승 체험! 체감 속도 시속 90킬로미터! 
+              <span class="blockspan"></span> 이보다 더 스릴 넘칠 순 없다!
+            </p>
+        </div>
+      </figure>
+      <figure class="figure03" data-aos="fade-down">
+        <img src="img/sec3_04_02.png" alt="해골폭포 이미지">
+        <div class="figure_textgroup figure03_textgroup d-flex flex-column">
+          <h2 class="bluetitle header2_tt">ADVENTURE  POOL </h2>
+          <h3 class="header3_tt">등골이 서늘해지는 <span class="blockspan"></span>릴스샷을 원한다면?</h3>
+          <p class="subtext">
+            캐비하면 해골폭포, 해골폭포하면 캐비!<span class="blockspan"></span>  
+            거대한 해골 물통에서 쏟아지는 <span class="blockspan"></span> 
+            등골이 서늘한 2.4톤의 물은 <span class="blockspan"></span> 
+            캐리비안 베이의 랜드 마크!         
+            쏟아질 때 타이머 필수! 
+          </p>
+        </div>
+      </figure>
+      <figure class="figure04" data-aos="fade-right">
+        <img class="figure04_img"  src="img/sec3_05.png" alt="파도풀 이미지">
+        <div class="figure_textgroup figure04_textgroup d-flex flex-column">
+          <h2 class="bluetitle header2_tt">WAVE POOL</h2>
+          <h3 class="header3_tt">야외에서 즐기는 <span class="blockspan"></span>워터 웨이브</h3>
+          <p class="subtext">
+            뿌우~ 뱃고동 소리와 함께 엄청난 파도를 느껴보세요
+            <span class="blockspan"></span> 폭 120미터, 길이 130미터의 세계 최대 수준의 
+            <span class="blockspan"></span> 파도풀이 만들어내는 거칠고 다양한 파도에 몸을 맡겨 보세요.              
+            <span class="blockspan"></span> 매 시 정각~40분에는 90초마다 50톤의 물을 방류해 
+            <span class="blockspan"></span> 2.4미터의 대형 파도를 만듭니다.40분~정각에는 쉬는 시간입니다.
+          </p>
+        </div>
+      </figure>
+    </section>
+    <section class="Sec4">
+      <div class="Sec4_txtgroup Sec4_txtgroup_odd header3_tt d-flex">   
+        <span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span>
+      </div>
+      <div class="Sec4_txtgroup Sec4_txtgroup_even header3_tt d-flex">   
+        <span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span>
+      </div>
+      <div class="Sec4_txtgroup Sec4_txtgroup_odd header3_tt d-flex">   
+        <span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span>
+      </div>
+      <div class="Sec4_txtgroup Sec4_txtgroup_even header3_tt d-flex">   
+        <span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span><span class="Sec4_firsttxt">THROW AWAY</span><span class="Sec4_secondTxt">IN WAVE</span>
+      </div>          
+    </section>
+    <section class="Sec5">
+      <div class="wrapper container">
+        <h3 class="header3_tt">클릭 OR 화살표 버튼으로 <span class="blockspan"></span>비치발리볼을 조작해보세요</h3>    
+        <div class="cube"></div>              
+        <div>  
+          <div class="Sec5txtgroup d-flex align-items-center">
+            <a href="#Sec6" class="Sec5btn_01 p1_tt btn">어트랙션 HOT 7 이동</a>            
+            <a href="#Sec7" class="Sec5btn_02 p1_tt btn">어트랙션 선택</a>            
+            <a href="img/caribbean_attraction_safe_guidebook.pdf" class="Sec5btn_03 p1_tt btn " target="_blank" download>안전수칙 PDF다운</a>  
+          </div>            
+          <div class="Sec5arrows d-flex">        
+            <button class="rotate_left"><i class="fa-solid fa-chevron-left"></i></button>
+            <button class="rotate_right"><i class="fa-solid fa-chevron-right"></i></button>                                    
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="Sec6" id="Sec6">        
+    <h2 class="header2_tt">ATTRACTION HOT 7</h2>      
+    <h4 class="Sec6_text header3_tt">캐리비안 베이 피셜 <span class="blockspan"></span> 
+      가장 인기많은 놀이기구만 <span class="blockspan"></span> 
+      모아봤어!</h4>
+    <div class="multiple_wrapper">
+      <div class="multiple-slider">
+        <div class="Sec6_figure Sec6_figure01">
+          <img class="slider slide01" src="img/sub_Sec7_hot7_01.png" alt="서핑라이드 이미지">
+          <div>
+            <h4 class="p1_tt">SURFING RIDE</h4>
+            <p class="p4_tt Sec6_figuresubtext">파도 서핑하는 사람들을 위한 공간으로 최대 1분 정도 탑승이 가능</p>
+            <div class="slider_btns">
+              <button class="slider-btn btn btn-primary"><p class="p1_tt">보러가기</p></button>
+            </div>
+          </div>
+        </div>
+        <div class="Sec6_figure Sec6_figure02">
+        <img class="slider slide02" src="img/sub_Sec7_hot7_02.png" alt="와일드 블라스터 이미지">
+          <div>
+            <h4 class="p1_tt">wild blaster</h4>
+            <p class="p4_tt Sec6_figuresubtext">2인승의 튜브슬라이드를 탄 채로 무빙워크를 통해 정상에서 급하강</p>
+            <div class="slider_btns">
+              <button class="slider-btn btn btn-primary"><p class="p1_tt">보러가기</p></button>
+            </div>
+          </div>
+        </div>
+        <div class="Sec6_figure Sec6_figure03">
+          <img class="slider slide03 " src="img/sub_Sec7_hot7_03.png" alt="아쿠아루프 이미지">
+          <div>
+            <h4 class="p1_tt">aqua loop</h4>
+            <p class="p4_tt Sec6_figuresubtext">튜브 없이 몸으로 미끄러지는 바디슬라이드로 수영복만 입장 가능</p>
+            <div class="slider_btns">
+              <button class="slider-btn btn btn-primary"><p class="p1_tt">보러가기</p></button>
+            </div>
+          </div>
+        </div>
+        <div class="Sec6_figure Sec6_figure04">
+          <img class="slider slide04" src="img/sub_Sec7_hot7_04.png" alt="메가스톰 이미지">
+            <div>
+              <h4 class="p1_tt">MEGA STORM</h4>
+              <p class="p4_tt Sec6_figuresubtext">전세계 3개밖에 없는 기종으로 깔대기모양의 급항감을 느낄 수 있는 인기 어트랙션</p>
+              <div class="slider_btns">
+                <button class="slider-btn btn btn-primary"><p class="p1_tt">보러가기</p></button>
+              </div>
+            </div>
+        </div>
+        <div class="Sec6_figure Sec6_figure05">
+          <img class="slider slide05" src="img/sub_Sec7_hot7_05.png" alt="워터 봅슬레이 이미지">
+          <div>
+            <h4 class="p1_tt">water bobsleigh</h4>            
+            <p class="p4_tt Sec6_figuresubtext">정통적인 워터슬라이드 시설로 수영복 외의 의상은 착용이 불가능하며, 특정 자세를 취하며 하강. </p>
+              <div class="slider_btns">
+                <button class="slider-btn btn btn-primary"><p class="p1_tt">보러가기</p></button>
+              </div>
+          </div>
+        </div>
+        <div class="Sec6_figure Sec6_figure06">
+          <img class="slider slide06" src="img/sub_Sec7_hot7_06.png" alt="타워 부메랑고 이미지">
+          <div>
+            <h4 class="p1_tt">tower boomeranggo</h4>            
+            <p class="p4_tt Sec6_figuresubtext">짧은 코스에 바이킹 처럼 뚝 떨어져 올라갔다 온길로 내려오는 스릴만점 어트랙션</p>
+            <div class="slider_btns">
+              <button class="slider-btn btn btn-primary"><p class="p1_tt">보러가기</p></button>
+            </div>
+          </div>
+        </div>
+        <div class="Sec6_figure Sec6_figure07">
+        <img class="slider slide07" src="img/sub_Sec7_hot7_07.png" alt="타워 래프트 이미지">
+          <div>
+            <h4 class="p1_tt">tower RAFT</h4>            
+            <p class="p4_tt Sec6_figuresubtext">3~4인 이용가능하며 적당한 스릴을 즐길 수 있는 가족단위 어트랙션</p>
+            <div class="slider_btns">
+              <button class="slider-btn btn btn-primary"><p class="p1_tt">보러가기</p></button>
+            </div>
+          </div>                            
+        </div>        
+      </div>                                  
+    </div>        
+    </section>
+    <section class="Sec7 container">        
+    <p class="p1_tt">#뭘 좋아할지 몰라서 다 준비해봤어</p>
+    <h2 class="header2_tt">타고싶은 어트랙션 레벨을 선택해보세요</h2>        
+    <ul class="Sec7_options d-flex">
+      <li>
+        <p class="Sec7_optionstxt01 p1_tt"><a href="#Sec8_sub01">아이들도 즐길 수 있는 <span class="blockspan"></span>부둥부둥 물장구<span class="blockspan"></span>LV.1</a></p>
+      </li>
+      <li>
+        <p class="Sec7_optionstxt02 p1_tt"><a href="#Sec8_sub02">어머, 이건 즐겨야해! <span class="blockspan"></span> 워터파크 필수코스<span class="blockspan"></span>LV.2</a></p>
+      </li>
+      <li>
+      <p class="Sec7_optionstxt03 p1_tt"><a href="#Sec8_sub03">눈 감고도 탈 수 있는<span class="blockspan"></span>  고인물 코스<span class="blockspan"></span>LV.3</a></p>
+      </li>
+    </ul>   
+    </section>
+    <section class="Sec8_biggroup">
+      <section class="Sec8"> 
+        <article class="Sec8_sub d-flex"  id="Sec8_sub01">
+        <div class="Sec8_sub_txtgroup">
+          <h4 class="p1_tt">LV.1 물장구코스</h4>
+          <p>첨벙첨벙 우리 아기 물놀이 코스</p>
+          <div id="map"></div>  
+        </div>        
+        <div class="Sec8_sub_cubeimggroup d-flex">
+          <div class="Sec8_sub_cubeimg_01">
+            <img src="img/Sub8_cubeimg01_01.jpg">
+            <div class="Sec8_sub_cubeimg_centertxt">
+              <p class="p1_tt">실내 파도풀</p>
+              <p class="p4_tt">아쿠아틱 센터</p>
+            </div>
+          </div>          
+          <div class="Sec8_sub_cubeimg_01">
+            <img src="img/Sub8_cubeimg01_02.jpg">
+            <div class="Sec8_sub_cubeimg_centertxt">
+              <p class="p1_tt">실내 유수풀</p>
+              <p class="p4_tt">아쿠아틱 센터</p>
+            </div>
+          </div>          
+          <div class="Sec8_sub_cubeimg_01">
+            <img src="img/Sub8_cubeimg01_03.jpg">
+            <div class="Sec8_sub_cubeimg_centertxt">
+              <p class="p1_tt">샌디플</p>
+              <p class="p3_tt">아쿠아틱 센터</p>
+            </div>
+          </div>          
+          <div class="Sec8_sub_cubeimg_01">
+            <img src="img/Sub8_cubeimg01_04.jpg">
+            <div class="Sec8_sub_cubeimg_centertxt">
+              <p class="p1_tt">실내 다이빙풀</p>
+              <p class="p3_tt">아쿠아틱센터</p>
+            </div>
+          </div>          
+          <div class="Sec8_sub_cubeimg_01">
+            <img src="img/Sub8_cubeimg01_05.jpg">
+            <div class="Sec8_sub_cubeimg_centertxt">
+              <p class="p1_tt">퀵 라이드</p>
+              <p class="p3_tt">아쿠아틱센터</p>
+            </div>
+          </div>          
+          <div class="Sec8_sub_cubeimg_01">
+            <img src="img/Sub8_cubeimg01_06.jpg">
+            <div class="Sec8_sub_cubeimg_centertxt">
+              <p class="p1_tt">풀사이드 슬라이드</p>
+              <p class="p3_tt">아쿠아틱센터</p>
+            </div>
+          </div>          
+          <div class="Sec8_sub_cubeimg_01">
+            <img src="img/Sub8_cubeimg01_07.jpg">
+            <div class="Sec8_sub_cubeimg_centertxt">
+              <p class="p1_tt">실내 어드벤쳐풀</p>
+              <p class="p3_tt">아쿠아틱센터</p>
+            </div>
+          </div>          
+          <div class="Sec8_sub_cubeimg_01">
+            <img src="img/Sub8_cubeimg01_08.jpg">
+            <div class="Sec8_sub_cubeimg_centertxt">
+              <p class="p1_tt">키디풀</p>
+              <p class="p3_tt">아쿠아틱센터</p>
+            </div>
+          </div>          
+          <div class="Sec8_sub_cubeimg_01">
+            <img src="img/Sub8_cubeimg01_09.jpg">
+            <div class="Sec8_sub_cubeimg_centertxt">
+              <p class="p1_tt">유아풀</p>
+              <p class="p3_tt">아쿠아틱센터</p>
+            </div>
+          </div>          
+          <div class="Sec8_sub_cubeimg_01">
+            <img src="img/Sub8_cubeimg01_10.jpg">
+            <div class="Sec8_sub_cubeimg_centertxt">
+              <p class="p1_tt">놀이기구 설명</p>
+              <p class="p3_tt">놀이기구 위치</p>
+            </div>
+          </div>          
+        </div>
+        </article>                    
+      </section> 
+      <section class="Sec8_clickpage">
+        <div class="Sec8_click Sec8_click01 d-flex ">
+          <!-- <img src="/img/Sub_Sec7_clickpage_01.png" alt="메가스톰 작은 이미지">
+          -->
+          <img src="img/Sub8_cubeimg01_01.jpg" alt="실내 파도풀">
+          <div class="Sec8_righttxtgroup">
+            <div class="d-flex">
+              <div class="arrow_circle arrow_circle_click01 p1_tt"><i class="fa-solid fa-arrow-left"></i></div>
+              <span class="arrow_circle_text p1_tt">back</span>            
+            </div>
+            <h3 class="header1_tt">실내 파도풀</h3>
+            <p class="p1_tt">여름에는 시원하게~ 겨울에는 따뜻하게~ 365일 즐기는 카리브해의 파도!
+              찰랑대는 파도에 몸을 맡기고 카리브해의 이국적인 낭만을 느껴보세요.</p>
+            <h4>운영시간 : 08:30 ~ 21:00 평균대기시간: 180분 이용가능 키 : 120cm 이상</h4>
+            <p> 130cm 미만 어린이가 레드라인 안쪽으로 들어가려면 구명자켓을 입어야 합니다.
+              * 레드라인 안쪽의 경우 공기를 주입하는 구명자켓은 착용이 불가합니다.
+            </p>
+          </div>
+        </div>
+        <div class="Sec8_click Sec8_click02 d-flex ">
+          <img src="img/Sub8_cubeimg01_02.jpg" alt="실내 유수풀">
+          <div>
+            <button></button>
+            <h3 class="header1_tt">MEGASTROM</h3>
+            <p class="p1_tt">
+              동굴을 탐험하는 듯한 은은한 조명 아래에서 이국적인 분위기에 취해 두둥실 몸을 맡겨 보세요~</p>
+            <h4>운영시간 : 08:30 ~ 21:00 평균대기시간: 180분 이용가능 키 : 120cm 이상</h4>
+            <p> * 120cm 이하는 구명조끼 착용 및 보호자 동반 시에만 이용 가능
+            </p>
+          </div>
+        </div>           
+      </section>  
+    </section>
+    <section class="Sec9">
+    <div class="Cavibg">
+      <h2 class="Cavbg_txt header1_tt text-center">캐리비안베이 안전수칙 다운로드</h2>
+    <i class="fa-solid fa-arrow-down header3_tt"></i>
+    </div>
+    <ul class="Guide-Rules d-flex jcc">
+        <li><a href="/img/caribbean_attraction_safe_guidebook.pdf" class="header3_tt" target="_blank">Guide Rule</a></li>
+        <li><a href="/img/caribbean_attraction_safe_guidebook.pdf" class="header3_tt" target="_blank">Guide Rule</a></li>
+        <li><a href="/img/caribbean_attraction_safe_guidebook.pdf" class="header3_tt" target="_blank">Guide Rule</a></li>
+        <li><a href="/img/caribbean_attraction_safe_guidebook.pdf" class="header3_tt" target="_blank">Guide Rule</a></li>
+        <li><a href="/img/caribbean_attraction_safe_guidebook.pdf" class="header3_tt" target="_blank">Guide Rule</a></li>
+        <li><a href="/img/caribbean_attraction_safe_guidebook.pdf" class="header3_tt" target="_blank">Guide Rule</a></li>
+        <li><a href="/img/caribbean_attraction_safe_guidebook.pdf" class="header3_tt" target="_blank">Guide Rule</a></li>
+        <li><a href="/img/caribbean_attraction_safe_guidebook.pdf" class="header3_tt" target="_blank">Guide Rule</a></li>
+        <li><a href="/img/caribbean_attraction_safe_guidebook.pdf" class="header3_tt" target="_blank">Guide Rule</a></li>
+        <li><a href="/img/caribbean_attraction_safe_guidebook.pdf" class="header3_tt" target="_blank">Guide Rule</a></li>
+        <li><a href="/img/caribbean_attraction_safe_guidebook.pdf" class="header3_tt" target="_blank">Guide Rule</a></li>
+    </ul>
+  </section>
+  </main>
+  <footer>
+    <div class="footer_wrap d-flex">
+
+      <a class="footer_logo" href="index.html">
+        <img src="./img/my/logo_white.png" alt="캐리비안베이 로고">
+      </a>
+      <div class='footer-link d-flex flex-column '>
+        <div class="footer_content">
+          <a href="">에버랜드 리조트 소개 |</a>
+          <a href="">이용약관 |</a>
+          <a href="">이메일주소 무단수집 거부 | </a>
+          <a href="">CAST참여 |</a>
+          <a href="">사이트맵</a>
+        </div>
+        <address>경기도 용인시 처인구 포곡읍 에버랜드로 199 삼성물산(주)
+          <br>대표이사 : 정해린 | 사업자등록번호 : 135-85-04288 | 통신판매업 신고번호 : 제2006-용인처인-0216호
+          <br>사업자정보확인▶ 손님상담센터 : 031-320-5000(유료) | 개인정보처리방침 | 방침 개정 안내 | 입찰공고
+          <br><br>
+
+        </address>
+        <p class="copyright">Copyright &copy; Samsung C&T Corporation. All rights reserved. </p>
+      </div>
+
+    </div>
+
+  </footer>
+  <script src="./js/header.js"></script>
+  <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=02eb933ce6cee08e3d90d3f14926ca94"></script>
+  <script src="https://threejs.org/build/three.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script> 
+  <script src="js/cummon.js"></script>  
+  <script src="js/att.js"></script>
+</body>
+</html>

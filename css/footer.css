@@ -1,0 +1,62 @@
+.footer_content {
+  padding-bottom: 20px;
+}
+
+.footer_content a {
+  color: white;
+  font-family: "S-Core Dream";
+  font-weight: 500;
+  font-size: 17px;
+}
+
+address,
+.copyright {
+  font-family: "S-Core Dream";
+  font-weight: 200;
+  letter-spacing: 1px;
+  color: white;
+  line-height: 25px;
+}
+
+/* 정석  css끝 */
+
+
+/* footer- 민용 */
+
+footer {
+  width: 100%;
+  margin: 0 auto;
+  height: 480px;
+  flex-shrink: 0;
+  background-image: url(../img/my/footer.png);
+  padding: 200px;
+}
+
+.footer_wrap {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+.footer_logo {
+  padding-right: 50px;
+}
+
+.footer_content {
+  padding-bottom: 20px;
+}
+
+.footer_content a {
+  color: white;
+  font-family: "S-Core Dream";
+  font-weight: 500;
+  font-size: 17px;
+}
+
+address,
+.copyright {
+  font-family: "S-Core Dream";
+  font-weight: 200;
+  letter-spacing: 1px;
+  color: white;
+  line-height: 25px;
+}

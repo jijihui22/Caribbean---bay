@@ -1,0 +1,297 @@
+/* ----------------- sub_section------------------- */
+.video_screen {
+  position: relative;
+  width: 100%;
+}
+
+.video_screen figure {
+  position: relative;
+  padding-top: 56.25%;
+  pointer-events: none;
+  top: 85px;
+}
+
+.video_screen iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+
+/* ----------------- button_list------------------- */
+.list_menu {
+  text-align: center;
+  padding-top: 175px;
+}
+
+.list_menu h2 {
+  padding-bottom: calc(var(--padding)*1);
+}
+
+.list_wrapper {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.lists {
+  border-top: 2px solid var(--light_g1);
+  padding: 10px 0;
+}
+
+.lists:last-child {
+  border-bottom: 2px solid var(--light_g1);
+}
+
+.list_wrapper .list_title {
+  padding: 0 25px;
+}
+
+.list_wrapper .lists label {
+  padding: 0 7px;
+}
+
+.list_item button {
+  padding: 0 4px;
+}
+
+.list_item:first-child button {
+  padding: 0;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  justify-content: center;
+  width: 1000px;
+}
+
+.list li {
+  margin: 20px;
+}
+.item-title{
+  font-size: 16px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+.item-title ~ p{
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 27px;
+  color: rgb(98, 185, 220);
+
+}
+.list li a {
+  cursor: pointer;
+}
+
+/* ----------------- food slide ------------------- */
+.food_slide_wrapper h2 {
+  text-align: center;
+}
+
+.swiper_area {
+  position: relative;
+}
+
+.swiper_area a {
+  cursor: pointer
+}
+
+.food_slide_switch i {
+  font-size: calc(var(--font_size)*1.6);
+  color: #00EAFF;
+  border: 1.25px solid var(--point-color-neon, #00EAFF);
+  box-shadow: 0px 0px 20px 4px rgba(22, 195, 238, 0.30);
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  line-height: 70px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.food_slide_switch i:first-child {
+  right: calc(100% + 30px);
+}
+
+.food_slide_switch i:last-child {
+  left: calc(100% + 30px)
+}
+
+/* ----------------- polaroid ------------------- */
+.polaroid {
+  height: 850px;
+  background: #FFD4DB;
+  padding: calc(var(--padding)*3);
+  margin-bottom: calc(var(--padding)*5);
+}
+
+.polaroid h2 {
+  text-align: center;
+}
+
+.polaroid h2:first-child {
+  color: #570F0F;
+}
+
+.polaroid_wrapper {
+  width: 100%;
+}
+
+.polaroid_items {
+  width: 1500px;
+  margin-right: 287px;
+  position: relative;
+  text-align: center;
+}
+
+.polaroid_items img {
+  border: 20px solid #fff;
+  border-radius: 20px;
+  box-sizing: border-box;
+  position: absolute;
+  transition: 0.3s;
+}
+
+.polaroid_items img:nth-child(1) {
+  transform: translateX(0%);
+  left: 5%;
+}
+
+.polaroid_items img:nth-child(2) {
+  transform: rotate(-15deg);
+  left: 27%;
+}
+
+.polaroid_items img:nth-child(3) {
+  transform: rotate(12deg);
+  left: 48.5%;
+}
+
+.polaroid_items img:nth-child(4) {
+  transform: rotate(-11deg);
+  left: 70%;
+}
+
+.polaroid_items img:nth-child(5) {
+  transform: rotate(11deg);
+  left: 90%;
+}
+
+.polaroid_items img:hover {
+  transform: scale(110%) rotate(0);
+}
+
+/* ----------------- s_ani ------------------- */
+.s_ani>h2 {
+  margin-bottom: calc(var(--padding)*5);
+  text-align: center;
+}
+
+.s_ani>div {
+  text-align: center;
+}
+
+.s_ani h3 {
+  padding: 0 7em;
+  font-weight: 600;
+}
+
+.s_ani .fade_up_bottom {
+  transform: translateY(100%);
+  justify-content: start;
+}
+
+.s_ani .fade_in_left {
+  transform: translateX(-100%);
+  justify-content: end;
+}
+
+.s_ani .fade_up_top {
+  transform: translateY(-100%);
+  justify-content: center;
+  margin: 150px;
+}
+
+.active [class^=fade] {
+  transform: none;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+}
+
+[class^=fade] {
+  transition: 1.3s ease-out;
+  opacity: 0;
+}
+
+/* ----------------- mouse point ------------------- */
+.mouse {
+  height: 470px;
+  background-color: rgb(248, 248, 170);
+  margin-bottom: calc(var(--padding)*4.25);
+}
+
+.cursor {
+  width: 350px;
+  height: 100px;
+  position: absolute;
+}
+
+.cursor img {
+  width: 37%;
+}
+
+/* ----------------- 반응형 ------------------- */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+
+  main .breadcrumb {
+    padding: 0;
+  }
+
+  main .breadcrumb+h2 {
+    text-align: center;
+    padding: 0;
+  }
+
+  main {
+    bottom: 0%;
+  }
+
+  .s_ani p {
+    padding-left: 1em;
+  }
+
+  .polaroid_wrapper {
+    justify-content: center;
+  }
+
+  .food_slide_switch i {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .animation .animation_img {
+    width: 90%;
+  }
+
+  [class^=fade] {
+    transition: 1.2s ease-out;
+    opacity: 0;
+  }
+
+  .video_screen {
+    padding-bottom: calc(var(--padding)*2);
+  }
+
+  .list_menu h2 {
+    font-size: calc(var(--font_size)*1.8);
+  }
+}
