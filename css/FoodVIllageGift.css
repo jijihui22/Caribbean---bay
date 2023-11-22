@@ -1,297 +1,249 @@
 /* ----------------- sub_section------------------- */
-.video_screen {
+.video_screen{
   position: relative;
-  width: 100%;
+  width: 100%
 }
-
-.video_screen figure {
+.video_screen figure{
   position: relative;
-  padding-top: 56.25%;
-  pointer-events: none;
   top: 85px;
+  padding-top: 56.25%;
+  pointer-events: none
 }
-
-.video_screen iframe {
+.video_screen iframe{
   position: absolute;
-  width: 100%;
-  height: 100%;
   top: 0;
+  width: 100%;
+  height: 100%
 }
 
 /* ----------------- button_list------------------- */
-.list_menu {
-  text-align: center;
+.list_menu{
   padding-top: 175px;
+  text-align: center
 }
-
-.list_menu h2 {
-  padding-bottom: calc(var(--padding)*1);
+.list_menu h2{
+  padding-bottom: calc(var(--padding)*1)
 }
-
-.list_wrapper {
+.list_wrapper{
   width: 700px;
-  margin: 0 auto;
+  margin: 0 auto
 }
-
-.lists {
-  border-top: 2px solid var(--light_g1);
+.lists{
   padding: 10px 0;
+  border-top: 2px solid var(--light_g1)
 }
-
-.lists:last-child {
-  border-bottom: 2px solid var(--light_g1);
+.lists:last-child{
+  border-bottom: 2px solid var(--light_g1)
 }
-
-.list_wrapper .list_title {
-  padding: 0 25px;
+.list_wrapper .list_title{
+  padding: 0 25px
 }
-
-.list_wrapper .lists label {
-  padding: 0 7px;
+.list_wrapper .lists label{
+  padding: 0 7px
 }
-
-.list_item button {
-  padding: 0 4px;
+.list_item button{
+  padding: 0 4px
 }
-
-.list_item:first-child button {
-  padding: 0;
+.list_item:first-child button{
+  padding: 0
 }
-
-.list {
+.list{
   display: flex;
-  flex-wrap: wrap;
-  margin-top: 50px;
-  justify-content: center;
   width: 1000px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  justify-content: center
 }
-
-.list li {
-  margin: 20px;
+.list li{
+  margin: 20px
 }
 .item-title{
-  font-size: 16px;
-  font-weight: 500;
   padding-bottom: 10px;
+  font-size: 16px;
+  font-weight: 500
 }
 .item-title ~ p{
   font-size: 14px;
   font-weight: 600;
-  line-height: 27px;
   color: rgb(98, 185, 220);
-
+  line-height: 27px;
 }
-.list li a {
-  cursor: pointer;
-}
-
-/* ----------------- food slide ------------------- */
-.food_slide_wrapper h2 {
-  text-align: center;
-}
-
-.swiper_area {
-  position: relative;
-}
-
-.swiper_area a {
+.list li a{
   cursor: pointer
 }
 
-.food_slide_switch i {
-  font-size: calc(var(--font_size)*1.6);
-  color: #00EAFF;
-  border: 1.25px solid var(--point-color-neon, #00EAFF);
-  box-shadow: 0px 0px 20px 4px rgba(22, 195, 238, 0.30);
-  border-radius: 50%;
-  width: 70px;
-  height: 70px;
-  text-align: center;
-  line-height: 70px;
+/* ----------------- food slide ------------------- */
+.food_slide_wrapper h2{
+  text-align: center
+}
+.swiper_area{
+  position: relative
+}
+.swiper_area a{
+  cursor: pointer
+}
+.food_slide_switch i{
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
   z-index: 10;
+  width: 70px;
+  height: 70px;
+  border: 1.25px solid var(--point-color-neon, #00EAFF);
+  border-radius: 50%;
+  font-size: calc(var(--font_size)*1.6);
+  color: #00EAFF;
+  text-align: center;
+  line-height: 70px;
+  box-shadow: 0px 0px 20px 4px rgba(22, 195, 238, 0.30);
+  transform: translateY(-50%)
 }
-
-.food_slide_switch i:first-child {
-  right: calc(100% + 30px);
+.food_slide_switch i:first-child{
+  right: calc(100% + 30px)
 }
-
-.food_slide_switch i:last-child {
+.food_slide_switch i:last-child{
   left: calc(100% + 30px)
 }
 
 /* ----------------- polaroid ------------------- */
-.polaroid {
+.polaroid{
   height: 850px;
-  background: #FFD4DB;
-  padding: calc(var(--padding)*3);
   margin-bottom: calc(var(--padding)*5);
+  padding: calc(var(--padding)*3);
+  background: #FFD4DB
 }
-
-.polaroid h2 {
-  text-align: center;
+.polaroid h2{
+  text-align: center
 }
-
-.polaroid h2:first-child {
-  color: #570F0F;
+.polaroid h2:first-child{
+  color: #570F0F
 }
-
-.polaroid_wrapper {
-  width: 100%;
+.polaroid_wrapper{
+  width: 100%
 }
-
-.polaroid_items {
+.polaroid_items{
+  position: relative;
   width: 1500px;
   margin-right: 287px;
-  position: relative;
-  text-align: center;
+  text-align: center
 }
-
-.polaroid_items img {
+.polaroid_items img{
+  position: absolute;
   border: 20px solid #fff;
   border-radius: 20px;
-  box-sizing: border-box;
-  position: absolute;
   transition: 0.3s;
+  box-sizing: border-box
 }
-
-.polaroid_items img:nth-child(1) {
-  transform: translateX(0%);
+.polaroid_items img:nth-child(1){
   left: 5%;
+  transform: translateX(0%)
 }
-
-.polaroid_items img:nth-child(2) {
-  transform: rotate(-15deg);
+.polaroid_items img:nth-child(2){
   left: 27%;
+  transform: rotate(-15deg)
 }
-
-.polaroid_items img:nth-child(3) {
-  transform: rotate(12deg);
+.polaroid_items img:nth-child(3){
   left: 48.5%;
+  transform: rotate(12deg)
 }
-
-.polaroid_items img:nth-child(4) {
-  transform: rotate(-11deg);
+.polaroid_items img:nth-child(4){
   left: 70%;
+  transform: rotate(-11deg)
 }
-
-.polaroid_items img:nth-child(5) {
-  transform: rotate(11deg);
+.polaroid_items img:nth-child(5){
   left: 90%;
+  transform: rotate(11deg)
 }
-
-.polaroid_items img:hover {
-  transform: scale(110%) rotate(0);
+.polaroid_items img:hover{
+  transform: scale(110%) rotate(0)
 }
 
 /* ----------------- s_ani ------------------- */
-.s_ani>h2 {
+.s_ani>h2{
   margin-bottom: calc(var(--padding)*5);
-  text-align: center;
+  text-align: center
 }
-
-.s_ani>div {
-  text-align: center;
+.s_ani>div{
+  text-align: center
 }
-
-.s_ani h3 {
+.s_ani h3{
   padding: 0 7em;
-  font-weight: 600;
+  font-weight: 600
 }
-
-.s_ani .fade_up_bottom {
+.s_ani .fade_up_bottom{
   transform: translateY(100%);
-  justify-content: start;
+  justify-content: start
 }
-
-.s_ani .fade_in_left {
-  transform: translateX(-100%);
+.s_ani .fade_in_left{
   justify-content: end;
+  transform: translateX(-100%);
 }
-
-.s_ani .fade_up_top {
-  transform: translateY(-100%);
-  justify-content: center;
+.s_ani .fade_up_top{
   margin: 150px;
+  justify-content: center;
+  transform: translateY(-100%)
 }
-
-.active [class^=fade] {
-  transform: none;
-  opacity: 1;
+.active [class^=fade]{
   display: flex;
   align-items: center;
+  transform: none;
+  opacity: 1
 }
-
-[class^=fade] {
+[class^=fade]{
   transition: 1.3s ease-out;
-  opacity: 0;
+  opacity: 0
 }
 
 /* ----------------- mouse point ------------------- */
-.mouse {
+.mouse{
   height: 470px;
-  background-color: rgb(248, 248, 170);
   margin-bottom: calc(var(--padding)*4.25);
+  background-color: rgb(248, 248, 170)
 }
-
-.cursor {
-  width: 350px;
-  height: 100px;
+.cursor{
   position: absolute;
+  width: 350px;
+  height: 100px
 }
-
-.cursor img {
-  width: 37%;
+.cursor img{
+  width: 37%
 }
 
 /* ----------------- 반응형 ------------------- */
-@media screen and (max-width: 768px) {
-  .container {
-    width: 100%;
+@media screen and (max-width: 768px){
+  .container{
+    width: 100%
   }
-
-  main .breadcrumb {
+  main .breadcrumb{
+    padding: 0
+  }
+  main .breadcrumb+h2{
     padding: 0;
+    text-align: center
   }
-
-  main .breadcrumb+h2 {
-    text-align: center;
-    padding: 0;
+  main{
+    bottom: 0%
   }
-
-  main {
-    bottom: 0%;
+  .s_ani p{
+    padding-left: 1em
   }
-
-  .s_ani p {
-    padding-left: 1em;
+  .polaroid_wrapper{
+    justify-content: center
   }
-
-  .polaroid_wrapper {
-    justify-content: center;
-  }
-
-  .food_slide_switch i {
+  .food_slide_switch i{
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-50%)
   }
-
-  .animation .animation_img {
-    width: 90%;
+  .animation .animation_img{
+    width: 90%
   }
-
-  [class^=fade] {
+  [class^=fade]{
     transition: 1.2s ease-out;
-    opacity: 0;
+    opacity: 0
   }
-
-  .video_screen {
-    padding-bottom: calc(var(--padding)*2);
+  .video_screen{
+    padding-bottom: calc(var(--padding)*2)
   }
-
-  .list_menu h2 {
-    font-size: calc(var(--font_size)*1.8);
+  .list_menu h2{
+    font-size: calc(var(--font_size)*1.8)
   }
 }

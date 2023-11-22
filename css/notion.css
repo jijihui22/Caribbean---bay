@@ -1,68 +1,54 @@
-.notion_table {
-  font-weight: 500;
+.notion_table{
   width: 1000px;
+  font-weight: 500;
 }
-
-.notion_table h2 {
+.notion_table h2{
   text-align: center;
 }
-
-.notion_table thead {
+.notion_table thead{
   border-top: 1px solid var(--light_g4);
   border-bottom: 1px solid var(--light_g4);
 }
-
-.notion_table .t_width_d {
+.notion_table .t_width_d{
   width: 87px;
 }
-
-.notion_table tr {
+.notion_table tr{
   border-bottom: 1px solid var(--light_g4);
 }
-
-.notion_table tbody tr td:first-child {
+.notion_table tbody tr td:first-child{
   color: var(--main_color);
 }
-
-.numbers li {
+.numbers li{
   padding: 0 10px
 }
-
-.numbers li a.active {
+.numbers li a.active{
   font-weight: 800;
 }
-
-.pagination {
+.pagination{
   padding-top: 15px;
 }
-
 .pagination i{
   cursor: pointer;
 }
-
-.notion-wrapper {
+.notion-wrapper{
   margin-top: 165px;
 }
-
-.notion-wrapper h2 {
+.notion-wrapper h2{
   text-align: center;
 }
 
 /* ----------------- 반응형 ------------------- */
-@media screen and (max-width: 768px) {
-  .container {
+@media screen and (max-width: 768px){
+  .container{
     width: 100%;
   }
-
-  .breadcrumb {
+  .breadcrumb{
     font-size: calc(var(--font_size)*0.8);
   }
-
-  .notion-wrapper h2 {
+  .notion-wrapper h2{
     font-size: calc(var(--font_size)*1.7);
   }
-
-  .t_width_n {
+  .t_width_n{
     width: 45px;
   }
 }

@@ -16,9 +16,9 @@
 }
 .popup h2 span{
   display: block;
-  padding: 35px 0 0 35px;
   width: 80px;
   height: 80px;
+  padding: 35px 0 0 35px;
   background-image: url(../img/cabi_favicon.png);
   background-repeat: no-repeat;
   background-size: 80px
@@ -47,10 +47,10 @@
   letter-spacing: 13%
 }
 .popup hr{
-  margin: 17px 0;
   height: 2px;
-  background: #3182f6;
-  border: 0
+  margin: 17px 0;
+  border: 0;
+  background: #3182f6
 }
 .popup hr:last-child{
   margin: 17px 0 21px 0
@@ -66,35 +66,35 @@
   right: 0
 }
 .sec2_slider_container{
-  width: 1320px;
-  margin: 82px auto;
-  height: 555px;
   position: relative;
-  overflow: hidden
+  overflow: hidden;
+  width: 1320px;
+  height: 555px;
+  margin: 82px auto;
 }
 .sec2_slideWrap h2{
   padding-bottom: 7px
 }
 .sec2_slides .sub_field{
-  height: 75px;
-  left: 0;
+  position: absolute;
   right: 0;
   bottom: 0;
+  left: 0;
   z-index: 10;
-  position: absolute;
+  height: 75px;
   line-height: 75px
 }
 .sec2_slides .sub_width{
+  top: 0;
   height: 60px;
-  line-height: 60px;
   text-align: center;
-  top: 0
+  line-height: 60px;
 }
 .sec2_slide_wrapper{
   position: absolute;
-  height: 500px;
-  width: 100%;
   left: 0;
+  width: 100%;
+  height: 500px;
 }
 .sec2_slide_wrapper.animated{
   transition: left 0.5s ease-out
@@ -102,15 +102,15 @@
 .sec2_slide_wrapper .sec2_slides{
   display: flex;
   position: absolute;
+  width: 100%;
   height: 500px;
-  width: 100%
 }
 .sec2_slide_wrapper .sec2_slides>div{
   width: 25%;
+  margin-right: 8px;
   flex: 1;
   transition: 0.3s;
   box-sizing: margin-box;
-  margin-right: 8px
 }
 .sec2_slide_wrapper .sec2_slides>div:hover{
   flex: 2
@@ -147,11 +147,10 @@
   position: relative
 }
 .sec2 video{
+  display: none;
+  position: absolute;
   top: 0;
   left: 0;
-  display: block;
-  position: absolute;
-  display: none;
   width: 100%;
   height: 100%
 }
@@ -174,14 +173,14 @@
   margin-bottom: 0
 }
 .sec7 .notice b{
+  padding-right: 20px;
   color: var(--main_color);
-  padding-right: 20px
 }
 .sec7 .notice .notice_detail{
-  text-align: end;
   position: absolute;
   top: 45px;
   right: 20px;
+  text-align: end;
 }
 .sec7 .notice .notice_detail a{
   cursor: pointer;
@@ -193,28 +192,28 @@
   border: 1px solid #000
 }
 .sec7 .info_switch{
-  height: 25px;
-  text-align: end;
-  font-size: calc(var(--font_size)*1.2);
   position: absolute;
   top: 42px;
   right: calc(50% + 20px);
+  height: 25px;
+  font-size: calc(var(--font_size)*1.2);
+  text-align: end;
 }
 .sec7 .info_switch .sec7_switch_next{
   margin-left: 10px
 }
 .sec7_swiper .info div{
-  background: black;
-  color: var(--white);
-  padding: 0 10px 0 15px;
-  line-height: 36px;
   display: flex;
-  justify-content: space-between;
   position: absolute;
-  border-radius: 0 0 20px 20px;
-  box-sizing: border-box;
   bottom: 36px;
-  width: 100%
+  width: 100%;
+  padding: 0 10px 0 15px;
+  border-radius: 0 0 20px 20px;
+  background: black;
+  justify-content: space-between;
+  line-height: 36px;
+  box-sizing: border-box;
+  color: var(--white);
 }
 .sec7_swiper .info li a{
   color: #fff;
@@ -239,8 +238,8 @@
   overflow: hidden
 }
 .sec7 .notice li{
+  height: 63px;
   border-bottom: 1px dotted var(--light_g3);
-  height: 63px
 }
 
 /* aside */
@@ -926,8 +925,8 @@
     margin: 15px auto
   }
   .sec2_slides{
+    width: 100%;
     flex: none;
-    width: 100%
   }
   .sec2_controls{
     display: none
@@ -946,8 +945,8 @@
   }
   .sec2 h2,
   .sec7 h2{
-    font-size: calc(var(--font_size)*1.5);
     padding-bottom: 0;
+    font-size: calc(var(--font_size)*1.5);
     line-height: calc(var(--line_height)*1.6)
   }
   .sec2 h3{
