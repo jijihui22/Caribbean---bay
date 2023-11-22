@@ -37,6 +37,12 @@ function addItems(sort, value) {
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 1,
   spaceBetween: 10,
+  autoplay: {
+    delay: 4000,
+    pauseOnMouseEnter: true
+  },
+  direction: 'horizontal',
+  loop: true,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
